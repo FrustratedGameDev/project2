@@ -1,0 +1,455 @@
+ISSUE 1
+action : labeled,	what : question,	when : 1423609543.0,	user : dmford
+
+ISSUE 2
+action : labeled,	what : Summarize,	when : 1423609700.0,	user : dmford
+
+ISSUE 3
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424099179.0,	user : dmford
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424099180.0,	user : dmford
+action : labeled,	what : Step 2: Summarize,	when : 1424099180.0,	user : dmford
+action : labeled,	what : Step 4: Reviewed References,	when : 1424099181.0,	user : dmford
+
+ISSUE 8
+action : labeled,	what : Step 4: Reviewed References,	when : 1424099416.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Key article,	when : 1424103711.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+
+ISSUE 9
+action : labeled,	what : Step 2: Summarize,	when : 1424100101.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Key article,	when : 1424103685.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 10
+action : labeled,	what : Literature Review,	when : 1424101991.0,	user : dmford
+
+ISSUE 11
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424102892.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424698254.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424699995.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Paywall,	when : 1426877027.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Paywall,	when : 1427200718.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1427200819.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 12
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424102930.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427124724.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427124724.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 13
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424102954.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424698387.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424699982.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Paywall,	when : 1426876978.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Paywall,	when : 1427200718.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dead End,	when : 1427215986.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 14
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103007.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424103033.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103036.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Key article,	when : 1424144908.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Paywall,	when : 1426781394.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : If time,	when : 1426783568.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : If time,	when : 1426783580.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426783580.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426789149.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 15
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424102999.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427125015.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427125015.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 16
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103075.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427125228.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427125228.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 17
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103098.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424698163.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424698163.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316623.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 18
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103115.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424698909.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424699967.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316503.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 19
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103132.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424700333.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424700333.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316345.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 20
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103153.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424700180.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424700180.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316297.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 21
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103172.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424699945.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424699945.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316141.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 22
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103197.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427125441.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427125441.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 23
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103224.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427125587.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427125587.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 24
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103242.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424699421.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Step 3: Adds Dimension,	when : 1424699421.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : labeled,	what : Dimension added to grid,	when : 1425316011.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add Info of Relevant Papers
+
+ISSUE 25
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103263.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427125835.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427125835.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 26
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103361.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427124850.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427124850.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 27
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103387.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426781358.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426791827.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426791827.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793739.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793739.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427217912.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 28
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103400.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427126199.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126199.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 29
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424103859.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Paywall,	when : 1426781325.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426784805.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426784805.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793989.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793989.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426875420.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1426875420.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 30
+action : labeled,	what : Our Process,	when : 1424460579.0,	user : anthonye2007,	milestone : Define Outline of Final Report
+
+ISSUE 31
+action : labeled,	what : Our Process,	when : 1424460579.0,	user : anthonye2007,	milestone : Define Outline of Final Report
+
+ISSUE 32
+action : labeled,	what : Our Process,	when : 1424460579.0,	user : anthonye2007
+
+ISSUE 33
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424458562.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Key article,	when : 1424461622.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1424464650.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Step 2: Summarize,	when : 1424464650.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : unlabeled,	what : Step 2: Summarize,	when : 1425319650.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Step 3: Adds Dimension,	when : 1425319800.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1425319808.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Step 4: Read in depth,	when : 1425319808.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : unlabeled,	what : Step 4: Read in depth,	when : 1425319815.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+action : labeled,	what : Step 5: Reviewed References,	when : 1425319815.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+
+ISSUE 34
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459655.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426626977.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426626977.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426781265.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426790384.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426790384.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793231.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793231.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 35
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459670.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427126437.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126437.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 36
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459697.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427126635.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126635.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 37
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459715.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427126957.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126957.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 38
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459730.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427126718.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126718.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 39
+action : labeled,	what : Step 1: Relevant Paper,	when : 1424459745.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427120291.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427120291.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1427120291.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 40
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459758.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427126535.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427126535.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 41
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459776.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427124428.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427124428.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 42
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459795.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427124254.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427124254.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 43
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459813.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427124129.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427124129.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 44
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459834.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427119103.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427119103.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 45
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459852.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1427118266.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1427118266.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 46
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459877.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426534914.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426534914.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1427120725.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1427120725.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1427120800.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1427123869.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1427123869.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1427123869.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Key article,	when : 1427123881.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 47
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459899.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426534690.0,	user : dmford,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 48
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459916.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426626913.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426626913.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426781167.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : If time,	when : 1426781167.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 49
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459943.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426626424.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426626424.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426626438.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426626438.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793388.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426793388.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 50
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459961.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426626246.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426626246.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : If time,	when : 1426781063.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 51
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424459983.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426626111.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426626111.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426626115.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426626115.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793538.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793538.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426876954.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : If time,	when : 1427200314.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 52
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460006.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426625239.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426625239.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426625939.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426625939.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793044.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793044.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426876848.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426877923.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1426877923.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 53
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460036.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426624339.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426624339.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426624989.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426624989.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793137.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793137.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426875874.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1426875874.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 54
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460052.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426624216.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426624216.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 55
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460073.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426623441.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426623441.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426623879.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426623879.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426792564.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426792564.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 56
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460119.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426622993.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426622993.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426623365.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426623365.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426793310.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426793310.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426875618.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1426875618.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 57
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460126.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426622159.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426622159.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426622400.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426622400.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426622949.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dimension added to grid,	when : 1426622949.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426622949.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 58
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460149.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426621711.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426621719.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : non-paywall,	when : 1426781138.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426789761.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426789761.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426792275.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426792299.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426877447.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 4: Dimension added to grid,	when : 1426877447.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 59
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460164.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426621475.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426621475.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426621485.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426621485.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dead End,	when : 1426621539.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 60
+action : labeled,	what : Step 0: Determine if relevant,	when : 1424460182.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 0: Determine if relevant,	when : 1426620527.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 1: Relevant Paper,	when : 1426620527.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 1: Relevant Paper,	when : 1426620673.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 2: Summarize,	when : 1426620673.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 2: Summarize,	when : 1426620707.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Step 3: Adds Dimension,	when : 1426620707.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : labeled,	what : Dimension added to grid,	when : 1426621092.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+action : unlabeled,	what : Step 3: Adds Dimension,	when : 1426874203.0,	user : anthonye2007,	milestone : Add ALL resources to Paper Comparison RepGrid
+
+ISSUE 61
+action : labeled,	what : Step 2: Summarize,	when : 1424697663.0,	user : anthonye2007
+
+ISSUE 62
+action : labeled,	what : Our Process,	when : 1425313042.0,	user : anthonye2007,	milestone : Project 1A: Preliminary Report
+
+ISSUE 67
+action : labeled,	what : Writing,	when : 1427200951.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 68
+action : labeled,	what : Grid,	when : 1427200961.0,	user : anthonye2007,	milestone : Finalize Rep Grid
+
+ISSUE 69
+action : labeled,	what : Grid,	when : 1427201088.0,	user : anthonye2007,	milestone : Finalize Rep Grid
+
+ISSUE 70
+action : labeled,	what : Grid,	when : 1427201238.0,	user : anthonye2007,	milestone : Finalize Rep Grid
+
+ISSUE 71
+action : labeled,	what : Writing,	when : 1427201274.0,	user : dmford,	milestone : Full paper draft
+
+ISSUE 72
+action : labeled,	what : Grid,	when : 1427214686.0,	user : anthonye2007,	milestone : Finalize Rep Grid
+
+ISSUE 73
+action : labeled,	what : Grid,	when : 1427231699.0,	user : anthonye2007,	milestone : Finalize Rep Grid
+
+ISSUE 74
+action : labeled,	what : Writing,	when : 1427231765.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 75
+action : labeled,	what : Writing,	when : 1427231813.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 76
+action : labeled,	what : Writing,	when : 1427294369.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 77
+action : labeled,	what : Writing,	when : 1427294392.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 78
+action : labeled,	what : Writing,	when : 1427294419.0,	user : anthonye2007,	milestone : Full paper draft
+action : labeled,	what : In Progress,	when : 1427294649.0,	user : anthonye2007,	milestone : Full paper draft
+action : unlabeled,	what : In Progress,	when : 1427316161.0,	user : anthonye2007,	milestone : Full paper draft
+action : labeled,	what : In Progress,	when : 1427320184.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 79
+action : labeled,	what : Writing,	when : 1427294449.0,	user : anthonye2007,	milestone : Full paper draft
+action : labeled,	what : In Progress,	when : 1427320190.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 80
+action : labeled,	what : Writing,	when : 1427294475.0,	user : anthonye2007,	milestone : Full paper draft
+action : labeled,	what : In Progress,	when : 1427320127.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 81
+action : labeled,	what : Writing,	when : 1427294525.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 82
+action : labeled,	what : Writing,	when : 1427294549.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 83
+action : labeled,	what : Writing,	when : 1427317032.0,	user : anthonye2007,	milestone : Full paper draft
+action : labeled,	what : Our Process,	when : 1427317032.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 84
+action : labeled,	what : Grid,	when : 1427744688.0,	user : anthonye2007,	milestone : Full paper draft
+
+ISSUE 85
+action : labeled,	what : Writing,	when : 1427895064.0,	user : anthonye2007,	milestone : Submit Final Project Report
+
+ISSUE 86
+action : labeled,	what : Writing,	when : 1427895158.0,	user : anthonye2007,	milestone : Submit Final Project Report
+
+ISSUE 87
+action : labeled,	what : Writing,	when : 1427896107.0,	user : anthonye2007,	milestone : Submit Final Project Report
+
+ISSUE 88
+action : labeled,	what : Writing,	when : 1427896128.0,	user : anthonye2007,	milestone : Submit Final Project Report
+
