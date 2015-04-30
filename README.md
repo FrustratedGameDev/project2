@@ -1,6 +1,10 @@
 GitHub Scraping
 ===
 
+# Resources
+* [Project Description](http://www4.ncsu.edu/~tjmenzie/cs510/posts/project2.html)
+* [Rubric](http://www4.ncsu.edu/~tjmenzie/cs510/posts/rubric6.html)
+
 # Features
 We need 10-20 features (useful representation of data)
 * Number of times each label was used? (done)
