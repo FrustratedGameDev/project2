@@ -17,6 +17,9 @@ We need 10-20 features (useful representation of data)
 * "Unusually small" number of issues handled by person21?(Denae started but needs refinement)
 * "Unusually large" number of commits? (Denae will do) Needs another file(https://developer.github.com/v3/repos/commits/)
 * Large time between commits for one person? (in progress - Anthony)
+* Length of commit message
+* Number of issues per milestone
+* Number of issues without milestone
 
 # Bad Smells
 What bad smells can we detect using the above features?
