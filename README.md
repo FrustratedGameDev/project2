@@ -1,7 +1,8 @@
 GitHub Scraping
 ===
 
-Features:
+# Features
+We need 10-20 features (useful representation of data)
 	- Number of times each label was used?
 		- search for
 			- action : labeled
@@ -12,3 +13,6 @@ Features:
 	- "Unusually small" number of issues handled by person21?
 	- "Unusually large" number of commits?
 	- Large time between commits for one person?
+
+# Bad Smells
+What bad smells can we detect using the above features?
