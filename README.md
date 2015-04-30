@@ -17,6 +17,8 @@ We need 10-20 features (useful representation of data)
 * "Unusually small" number of issues handled by person21?
 * "Unusually large" number of commits?
 * Large time between commits for one person? (in progress - Anthony)
+	* Recreate activity log for each user
+	* find time between each event
 
 # Bad Smells
 What bad smells can we detect using the above features?
