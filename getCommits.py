@@ -81,15 +81,28 @@ def launchDump():
     doNext = dump('https://api.github.com/repos/FrustratedGameDev/Papers/commits?page=' + str(page), commits)
     page += 1
     if not doNext : break
-  for commit, events in commits.iteritems():
-    print("COMMIT " + str(commit))
-    # TODO sort events based on time
-    #sortedEvents = sorted(events, key=lambda k: k['when']) 
 
-    for event in sortedEvents: print(event.show())
-    print('')
+def findMessageLengths():
+  userToMessageLength = {}
+
+  for commit in allCommits:
+    length = len(commit.message)
+    if commit.user in userToMessageLength:
+      userToMessageLength[commit.user].append(length)
+    else:
+      userToMessageLength[commit.user] = [length]
+
+  for user in userToMessageLength:
+    userToMessageLength[user].sort()
+
+  with open('message-length.txt', 'w') as file:
+    file.write('username, length of message\n')
+    for user in userToMessageLength:
+      for msgLength in userToMessageLength[user]:
+        file.write(user + ", " + str(msgLength) + '\n') 
     
 launchDump()
+findMessageLengths()
 
-for commit in allCommits:
-  print(commit)
+#for commit in allCommits:
+  #print(commit)   
