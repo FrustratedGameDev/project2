@@ -14,7 +14,7 @@ Save the token in a file called token.
 
 3) Run the python file and it will read the file
 
-     python getCommits.py
+     python getmilestones.py
 
 """
 
@@ -27,15 +27,15 @@ import sys
 file = open('token')
 Token = file.read().rstrip()
 
-def dump(u,commits):
+def dump(u,milestones):
   try:
-    return dump1(u, commits)
+    return dump1(u, milestones)
   except Exception as e: 
     print(e)
     print("Contact TA")
     return False
 
-def dump1(u,commits):
+def dump1(u,milestones):
   request = urllib2.Request(u, headers={"Authorization" : "token " + Token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -44,22 +44,16 @@ def dump1(u,commits):
   	print(event)
   return True
 
-  # Data to keep
-  # - sha
-  # author
-  # commit message
-  # time committed
-
 def launchDump():
   page = 1
-  commits = dict()
+  milestones = dict()
   while(True):
-    doNext = dump('https://api.github.com/repos/FrustratedGameDev/Papers/commits?page=' + str(page), commits)
+    doNext = dump('https://api.github.com/repos/FrustratedGameDev/Papers/milestones?state=all&page=' + str(page), milestones)
     #print("page "+ str(page))
     page += 1
     if not doNext : break
-  for commit, events in commits.iteritems():
-    print("COMMIT " + str(commit))
+  for milestone, events in milestones.iteritems():
+    print("MILESTONE " + str(milestone))
     # TODO sort events based on time
     #sortedEvents = sorted(events, key=lambda k: k['when']) 
 
