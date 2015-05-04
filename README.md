@@ -20,7 +20,8 @@ We need 10-20 features (useful representation of data)
 * Length of commit message
 * Number of issues per milestone - Denae
 * Number of issues without milestone - Denae
-* Large number of commits close to a milestone deadline
+* Timeline of commit dates in compairison to milestone deadlines
 
 # Bad Smells
 What bad smells can we detect using the above features?
+* Large number of commits close to a milestone deadline
