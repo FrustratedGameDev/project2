@@ -1,10 +1,31 @@
 # /repos/:owner/:repo/commits
 
+"""
+You will need to add your authorization token in the code.
+Here is how you do it.
+
+1) In terminal run the following command
+
+curl -i -u <your_username> -d '{"scopes": ["repo", "user"], "note": "OpenSciences"}' https://api.github.com/authorizations
+
+2) Enter your password on prompt. You will get a JSON response. 
+In that response there will be a key called "token" . 
+Save the token in a file called token.
+
+3) Run the python file and it will read the file
+
+     python getCommits.py
+
+"""
+
 from __future__ import print_function
 import urllib2
 import json
 import re,datetime
 import sys
+
+file = open('token')
+Token = file.read().rstrip()
 
 def dump(u,commits):
   try:
@@ -15,8 +36,7 @@ def dump(u,commits):
     return False
 
 def dump1(u,commits):
-  token = "your token here" # <===
-  request = urllib2.Request(u, headers={"Authorization" : "token " + token})
+  request = urllib2.Request(u, headers={"Authorization" : "token " + Token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
   if not w: return False
