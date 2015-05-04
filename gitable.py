@@ -30,6 +30,9 @@ import urllib2
 import json
 import re,datetime
 import sys
+
+file = open('token')
+Token = file.read().rstrip()
  
 class L():
   "Anonymous container"
@@ -58,7 +61,7 @@ def secs(d0):
  
 def dump1(u,issues):
   token = "6549e71a0724c93d6f233051d99de248fff5bff8" # <===
-  request = urllib2.Request(u, headers={"Authorization" : "token "+token})
+  request = urllib2.Request(u, headers={"Authorization" : "token " + Token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
   if not w: return False
@@ -95,16 +98,38 @@ def launchDump():
   issues = dict()
   while(True):
     doNext = dump('https://api.github.com/repos/FrustratedGameDev/Papers/issues/events?page=' + str(page), issues)
-    print("page "+ str(page))
+    print(page)
     page += 1
     if not doNext : break
+
+  timePerLabel = {}
+
   for issue, events in issues.iteritems():
-    print("ISSUE " + str(issue))
+    #print("ISSUE " + str(issue))
     # TODO sort events based on time
     sortedEvents = sorted(events, key=lambda k: k['when']) 
 
-    for event in sortedEvents: print(event.show())
-    print('')
+    prevTime = None
+
+    for event in sortedEvents: 
+      #print(event.show())
+      start = int(event.when)
+      #print("when: " + str(start))
+      if prevTime == None:
+        prevTime = start
+      else:
+        duration = start - prevTime
+        print("Duration: " + str(duration))
+
+        # add to dict
+        label = event.what
+        if label in timePerLabel:
+          timePerLabel[label] += duration
+        else:
+          timePerLabel[label] = duration
+
+  for label in timePerLabel:
+    print(label + "\t" + str(timePerLabel[label]))
     
 launchDump()
 
