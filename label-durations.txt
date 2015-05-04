@@ -16,3 +16,7 @@ Step 2: Summarize, 68886629
 ===
 Mean time per label: 31772392
 Standard deviation: 45054088.4484
+===
+Unusually long labels
+label, duration (ms)
+Step 1: Relevant Paper, 92355362

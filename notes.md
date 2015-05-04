@@ -7,8 +7,6 @@ GitHub Scraping
 
 # Features
 We need 10-20 features (useful representation of data)
-- Mean and standard deviation of times spent in each label?
-- "Unusually long" time; i.e. more than, say, mean + 1.5 or 2 standard deviations time in a label
 - "Unusually small" number of issues handled by person21?(Denae started but needs refinement)
 - Number of issues per milestone - Denae
 - Number of issues without milestone - Denae
@@ -19,6 +17,8 @@ Completed features
 - Number of times each label was used?
 - Number of commits per week
 - "Unusually large" number of commits?
+- Mean and standard deviation of times spent in each label?
+- "Unusually long" time; i.e. more than, say, mean + 1.5 or 2 standard deviations time in a label
 	
 
 # Bad Smells

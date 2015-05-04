@@ -152,6 +152,13 @@ def launchDump():
 
     file.write('Standard deviation: ' + str(standardDeviation) + '\n')
 
+    file.write('===\n')
+    file.write('Unusually long labels\n')
+    file.write('label, duration (ms)\n')
+    for label in timePerLabel:
+      if timePerLabel[label] > mean + standardDeviation:
+        file.write(label + ', ' + str(timePerLabel[label]) + '\n')
+
 
     
 launchDump()
