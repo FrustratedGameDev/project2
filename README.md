@@ -25,3 +25,4 @@ We need 10-20 features (useful representation of data)
 # Bad Smells
 What bad smells can we detect using the above features?
 * Large number of commits close to a milestone deadline
+* Were there labels that were only used once?
