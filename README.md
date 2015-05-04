@@ -16,10 +16,10 @@ We need 10-20 features (useful representation of data)
 3. "Unusually long" time; i.e. more than, say, mean + 1.5 or 2 standard deviations time in a label
 4. "Unusually small" number of issues handled by person21?(Denae started but needs refinement)
 5. "Unusually large" number of commits? (Denae will do) Needs another file(https://developer.github.com/v3/repos/commits/)
-6. Large time between commits for one person? (in progress - Anthony)
+6. Large time between commits for one person? (done)
 	* Recreate activity log for each user
 	* find time between each event
-7. Length of commit message
+7. Length of commit message (in progress - Anthony)
 8. Number of issues per milestone - Denae
 9. Number of issues without milestone - Denae
 10. Timeline of commit dates in compairison to milestone deadlines
