@@ -1,5 +1,3 @@
-# 'committer': {'date': 
-
 from datetime import datetime
 
 userToCommits = {}
@@ -22,7 +20,7 @@ def getCommitsForEachUser():
                 date = datetime.strptime(line.split('\t')[0], '%Y-%m-%d at %H:%M:%S')
                 addToDict(user, date)
 
-def display():
+def displayTimeBtwnCommits():
     for user in userToCommits:
         print("===\n" + user)
         dates = userToCommits[user]
@@ -34,4 +32,4 @@ def display():
             prev = date
 
 getCommitsForEachUser()
-display()
+displayTimeBtwnCommits()
