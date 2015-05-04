@@ -1,5 +1,7 @@
 #get the list of contributors from the repo using https://api.github.com/repos/FrustratedGameDev/Papers/contributors?page=
 
+#to run do: python anonymize2.py FrustratedGameDev/Papers
+
 # From this list of 'login' assign each person an alias. e.g. person 1 person 2
 
 #this tool should then parse through all other files to use that alias.
@@ -14,7 +16,7 @@ userLista = {}
 
 
 def usercleaner(repo):
-	site = "https://api.github.com/repos/" +repo+ "/contributors?page="
+	site = "https://api.github.com/repos/" +repo+ "/contributors?page=1"
 	resp = urllib2.urlopen(site)
 
 	#r = requests.get(site, stream=True)
