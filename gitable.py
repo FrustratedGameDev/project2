@@ -30,6 +30,7 @@ import urllib2
 import json
 import re,datetime
 import sys
+import math
 
 file = open('token')
 Token = file.read().rstrip()
@@ -104,36 +105,53 @@ def launchDump():
 
   timePerLabel = {}
 
-  for issue, events in issues.iteritems():
-    #print("ISSUE " + str(issue))
-    # TODO sort events based on time
-    sortedEvents = sorted(events, key=lambda k: k['when']) 
+  with open('label-durations.txt', 'w') as file:
+    for issue, events in issues.iteritems():
+      #print("ISSUE " + str(issue))
+      # TODO sort events based on time
+      sortedEvents = sorted(events, key=lambda k: k['when']) 
 
-    prevTime = None
+      prevTime = None
 
-    for event in sortedEvents: 
-      #print(event.show())
-      start = int(event.when)
-      #print("when: " + str(start))
-      if prevTime == None:
-        prevTime = start
-      else:
-        duration = start - prevTime
-        print("Duration: " + str(duration))
-
-        # add to dict
-        label = event.what
-        if label in timePerLabel:
-          timePerLabel[label] += duration
+      for event in sortedEvents: 
+        #print(event.show())
+        start = int(event.when)
+        #print("when: " + str(start))
+        if prevTime == None:
+          prevTime = start
         else:
-          timePerLabel[label] = duration
+          duration = start - prevTime
 
-  for label in timePerLabel:
-    print(label + "\t" + str(timePerLabel[label]))
+          # add to dict
+          label = event.what
+          if label in timePerLabel:
+            timePerLabel[label] += duration
+          else:
+            timePerLabel[label] = duration
+
+    # remove really small outliers (under 1 second)
+    for label, duration in timePerLabel.items():
+      if duration < 1000:
+        del timePerLabel[label]
+
+    sumNormal = 0
+    sumOfSquares = 0;
+    file.write('label, time in label (ms)\n')
+    for label in timePerLabel:
+      file.write(label + ", " + str(timePerLabel[label]) + '\n')
+      sumNormal += timePerLabel[label]
+      sumOfSquares += timePerLabel[label]**2
+
+    mean = sumNormal / len(timePerLabel)
+    file.write('===\n')
+    file.write('Mean time per label: ' + str(mean) + '\n')
+
+    num = len(timePerLabel)
+    top = math.sqrt(num * sumOfSquares - sumNormal)
+    standardDeviation = top / len(timePerLabel)
+
+    file.write('Standard deviation: ' + str(standardDeviation) + '\n')
+
+
     
 launchDump()
-
-
-  
-   
- 

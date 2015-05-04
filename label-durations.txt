@@ -1,0 +1,18 @@
+label, time in label (ms)
+Key article, 2716844
+Step 1: Relevant Paper, 92355362
+If time, 12743818
+Step 4: Read in depth, 1722499
+In Progress, 99130
+Step 4: Dimension added to grid, 18200032
+Step 3: Adds Dimension, 71572489
+Paywall, 17099602
+non-paywall, 14475634
+Dimension added to grid, 11602741
+Dead End, 73458194
+Step 0: Determine if relevant, 59019273
+Step 5: Reviewed References, 861253
+Step 2: Summarize, 68886629
+===
+Mean time per label: 31772392
+Standard deviation: 45054088.4484
