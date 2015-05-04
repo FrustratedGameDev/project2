@@ -21,11 +21,26 @@ Save the token in a file called token.
 from __future__ import print_function
 import urllib2
 import json
-import re,datetime
+import re, datetime
 import sys
+from datetime import datetime
 
 file = open('token')
 Token = file.read().rstrip()
+
+allCommits = []
+
+class Commit():
+  "Anonymous container"
+  def __init__(i,**fields) : 
+    i.override(fields)
+  def override(i,d): i.__dict__.update(d); return i
+  def __repr__(i):
+    dateStr = datetime.strftime(i.date, '%Y-%m-%d at %H:%M:%S')
+    return dateStr + "\tby " + i.user + "\tmessage: " + i.message
+
+  def __getitem__(i, item):
+    return i.__dict__['date']
 
 def dump(u,commits):
   try:
@@ -40,8 +55,17 @@ def dump1(u,commits):
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
   if not w: return False
-  for event in w:
-  	print(event)
+  for commit in w:
+    date = datetime.strptime(commit['commit']['committer']['date'], '%Y-%m-%dT%H:%M:%SZ')
+    user = commit['author']['login']
+    message = commit['commit']['message']
+
+    commitObj = Commit(date=date,
+                 user = user,
+                 message = message)
+
+    allCommits.append(commitObj)
+
   return True
 
   # Data to keep
@@ -55,7 +79,6 @@ def launchDump():
   commits = dict()
   while(True):
     doNext = dump('https://api.github.com/repos/FrustratedGameDev/Papers/commits?page=' + str(page), commits)
-    #print("page "+ str(page))
     page += 1
     if not doNext : break
   for commit, events in commits.iteritems():
@@ -67,3 +90,6 @@ def launchDump():
     print('')
     
 launchDump()
+
+for commit in allCommits:
+  print(commit)
