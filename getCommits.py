@@ -10,9 +10,9 @@ curl -i -u <your_username> -d '{"scopes": ["repo", "user"], "note": "OpenScience
 
 2) Enter your password on prompt. You will get a JSON response. 
 In that response there will be a key called "token" . 
-Copy the value for that key and paste it on line marked "token" in the attached source code. 
+Save the token in a file called token.
 
-3) Run the python file. 
+3) Run the python file and it will read the file
 
      python getCommits.py
 
@@ -24,6 +24,9 @@ import json
 import re,datetime
 import sys
 
+file = open('token')
+Token = file.read().rstrip()
+
 def dump(u,commits):
   try:
     return dump1(u, commits)
@@ -33,8 +36,7 @@ def dump(u,commits):
     return False
 
 def dump1(u,commits):
-  token = "your token here" # <===
-  request = urllib2.Request(u, headers={"Authorization" : "token " + token})
+  request = urllib2.Request(u, headers={"Authorization" : "token " + Token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
   if not w: return False
