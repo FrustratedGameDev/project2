@@ -29,4 +29,4 @@ for user in sortedUsers:
     #Right now this tool gathers ones that don't have milestones. 
         #This is identified as those with a new line behind it. 
 
-print("\nThe following list identifies the number of issues that a user was the last person to handle:")
+print("\nThe person to close an issue is usually the one that fixed it. The following list identifies the number of issues that a user was the last person to handle the issue:")
