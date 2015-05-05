@@ -1,6 +1,6 @@
 #get the list of contributors from the repo using https://api.github.com/repos/FrustratedGameDev/Papers/contributors?page=
 
-#to run do: python anonymize2.py FrustratedGameDev/Papers
+#to run do: python anonymize.py FrustratedGameDev/Papers
 
 # From this list of 'login' assign each person an alias. e.g. person 1 person 2
 
