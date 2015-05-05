@@ -107,7 +107,9 @@ Here is an example of how the data is set up in the csv files:
 |------|-------|--------|--------|
 |milestone_2|5|5|015-04-05T04:00:00Z|
 
+The tables for these findings can be found in the [Early Warning Folder](https://github.com/FrustratedGameDev/project2/tree/master/early_warning)
 ###Project 1
+
 ```
 No milestones were detected.
 ```
