@@ -1,4 +1,4 @@
-# Project 2 Report
+  # Project 2 Report
 ##BadSmell Detector
 Anthony Elliott and Denae Ford
 
@@ -60,16 +60,16 @@ The following table demonstrates how much data was collect for each feature.
 
 |Number|Feature|Project1|Project2|Project3|
 |------|-------|--------|--------|--------|
-|1|Commit Message Length|1|1|1|
-|2|Uneven Time Between Commits|1|1|1|
-|3|Uneven Label Usage|1|1|1|
-|4|Number of Commits per week|1|1|1|
-|5|Uneven number of commits|1|1|1|
-|6|Unusal time in Label|1|1|1|
-|7|Mean St Dev in Label|1|1|1|
-|8|Uneven Issue Handling|1|1|1|
-|9|Number of Issues per milestone|1|1|1|
-|10|Issues without Milestones|1|1|1|
+|1|Commit Message Length|162|1|1|
+|2|Uneven Time Between Commits|X|1|1|
+|3|Time per label|19|1|1|
+|4|Number of Commits per week|11|1|1|
+|5|Uneven number of commits|3|1|1|
+|6|Unusual time in Label|1|1|1|
+|7|Mean St Dev in Label|2|1|1|
+|8|Uneven Issue Handling|X|1|1|
+|9|Number of Issues per milestone|X|1|1|
+|10|Issues without Milestones|X|1|1|
 
 ## Data Samples
 
