@@ -21,7 +21,7 @@ def getCommitsForEachUser():
         addToDict(user, date)
 
 def findNumberOfCommitsPerUser():
-  with open('large-number-commits.txt', 'w') as file:
+  with open('large-number-commits.csv', 'w') as file:
     file.write('user, commits\n')
     for user in userToCommits:
       count = len(userToCommits[user])

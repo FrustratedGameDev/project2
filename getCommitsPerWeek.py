@@ -38,7 +38,7 @@ def makeRequest(repo):
   weeks = jsonData['all']
 
   activeWeeks = trimWeeks(weeks)
-  with open('commits-per-week.txt', 'w') as file:
+  with open('commits-per-week.csv', 'w') as file:
     file.write('week, commits\n')
 
     i = 1
