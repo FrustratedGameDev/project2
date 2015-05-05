@@ -102,10 +102,11 @@ def launchDump():
     print(page)
     page += 1
     if not doNext : break
+  return issues
 
+def processTimeInEachLabel(issues):
   timePerLabel = {}
 
-  
   for issue, events in issues.iteritems():
     #print("ISSUE " + str(issue))
     # TODO sort events based on time
@@ -164,6 +165,6 @@ def launchDump():
       if timePerLabel[label] > mean + standardDeviation:
         file.write(label + ', ' + str(timePerLabel[label]) + '\n')
 
-
     
-launchDump()
+issues = launchDump()
+processTimeInEachLabel(issues)
