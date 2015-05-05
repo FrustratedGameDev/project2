@@ -1,9 +1,5 @@
 #!/bin/sh
 
-#anonyizes groups
-#anonymizes users within groups
-#anonymizes milestones within groups
-
 #Runs the issue Handler
 python issueHandler.py
 
@@ -12,3 +8,9 @@ python getCommits.py
 
 #Prints all the Milestones
 python getMilestones.py
+
+#anonyizes groups
+#anonymizes users within groups
+#anonymizes milestones within groups
+#Test command:  python anonymize.py FrustratedGameDev/Papers /Users/Denae/git/CSC510/project2/testdir
+python anonymize 

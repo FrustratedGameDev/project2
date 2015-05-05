@@ -55,7 +55,7 @@ def milestonecleaner(repo):
 
 #This method finds all the files in the diirectory exposing personal information and changes it to the appopriate names
 #Where path is the dir to ge the files from
-# Test command:  python anonymize2.py FrustratedGameDev/Papers /Users/Denae/git/CSC510/project2/testdir
+# Test command:  python anonymize.py FrustratedGameDev/Papers /Users/Denae/git/CSC510/project2/testdir
 
 def findanddestroy(path,exts=None):
 	#for each file in the directory
