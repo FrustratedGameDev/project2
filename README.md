@@ -194,6 +194,17 @@ In addition to the previous feature, we also want to see how many issues were no
 #### Results
 Not done yet.
 
+### Feature 11: Issues per Label
+Counts the number of issues used for each label. This gives us interesting data on how the team used the labels.
+
+#### Results
+Sample data table:
+
+label| number of issues
+---|---
+Step 4: Read in depth| 1
+question| 1
+
 ## Early Warning
  An early warning of a bad smell is being able to detect whether or not people still have milestones open at this stage of projects. 
 As we are now in Project 2 and have completed Project1 several weeks ago, the milestones in Project 1 should have been completed as well. 
