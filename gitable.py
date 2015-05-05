@@ -105,7 +105,7 @@ def launchDump():
 
   timePerLabel = {}
 
-  with open('label-durations.txt', 'w') as file:
+  with open('label-durations.csv', 'w') as file:
     for issue, events in issues.iteritems():
       #print("ISSUE " + str(issue))
       # TODO sort events based on time

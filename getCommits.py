@@ -95,7 +95,7 @@ def findMessageLengths():
   for user in userToMessageLength:
     userToMessageLength[user].sort()
 
-  with open('message-length.txt', 'w') as file:
+  with open('message-length.csv', 'w') as file:
     file.write('username, length of message\n')
     for user in userToMessageLength:
       for msgLength in userToMessageLength[user]:
