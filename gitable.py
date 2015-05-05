@@ -141,6 +141,9 @@ def processTimeInEachLabel(issues):
     for label in timePerLabel:
       file.write(label + ", " + str(timePerLabel[label]) + '\n')
 
+  return timePerLabel
+
+def meanAndStdDevForLabels(timePerLabel):
   # calculate mean and standard deviation
   sumNormal = 0
   sumOfSquares = 0;
@@ -158,13 +161,13 @@ def processTimeInEachLabel(issues):
     file.write('Mean time per label: ' + str(mean) + '\n')
     file.write('Standard deviation: ' + str(standardDeviation) + '\n')
 
-  # Write long labels
+  # Find long labels
   with open('long-labels.csv', 'w') as file:
     file.write('label, duration (ms)\n')
     for label in timePerLabel:
       if timePerLabel[label] > mean + standardDeviation:
         file.write(label + ', ' + str(timePerLabel[label]) + '\n')
 
-    
 issues = launchDump()
-processTimeInEachLabel(issues)
+timePerLabel = processTimeInEachLabel(issues)
+meanAndStdDevForLabels(timePerLabel)
