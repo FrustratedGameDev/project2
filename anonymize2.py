@@ -27,15 +27,13 @@ def usercleaner(repo):
   	for contributor in w:
   		user = contributor['login']
   		#print(user)
-  		userList[user] = usercount
+  		userList[user] = "user_"+str(usercount)
   		usercount+=1
 
   	print("User list: ")
   	print(userList)
 
-
-
-
+# Collects a dict of the alias names
 def milestonecleaner(repo):
 	milestonesite = "https://api.github.com/repos/"+repo+"/milestones?state=all&page=1"
 	v = urllib2.urlopen(milestonesite).read()
@@ -46,42 +44,20 @@ def milestonecleaner(repo):
   	for milestone in w:
   		mstone = milestone['title']
   		#print(mstone)
-  		milestoneList[mstone] = milestonecount
+  		milestoneList[mstone] = "milestone_"+str(milestonecount)
   		milestonecount+=1
 
   	print("Milestone list: ")
   	print(milestoneList)
 
+#This method finds all the files in the diirectory exposing personal information and changes it to the appopriate names
+#def findanddestroy(dir2check):
+	#for each file in the directory
 
-
-
-  		#user= contributor['login']
-  		#print(user)
-
-	#r = requests.get(site, stream=True)
-
-	# for line in resp:
-	#     	#print line
-	# 	if "login" in line:
-	# 	    		username = line.split(':')[1]
-	# 	        	if username not in userList:
-	# 	        	    userList[username] = 1
-	#print thing
-	#resp = urllib2.urlopen(thing).readlines()
-	#for line in webp:
-       
-                    #else:
-                     #   labels[label] += 1
-
-	#TODO find all lines that say user and save the name
-
-
-
-
-	#for username in userList:
-	#	print(username)
+  		
 
 
 if __name__ == '__main__':
     usercleaner(sys.argv[1])
     milestonecleaner(sys.argv[1])
+    findanddestroy(sys.argv[2])
