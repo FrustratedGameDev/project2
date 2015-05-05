@@ -21,6 +21,7 @@ countLabels()
 
 sortedLabels = sorted(labels, key=labels.get)
 
+print('label, number of issues')
 for label in sortedLabels:
     count = str(labels[label])
-    print(label + "\t" + count)
+    print(label + ", " + count)

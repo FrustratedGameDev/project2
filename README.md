@@ -92,7 +92,7 @@ We wanted to extract the length of each commit message.
 ### Feature 2: Uneven Time Between Commits
 We wanted to determine how long each contributor went in between each commit. This could be used to help analyze participation.
 
-  #### Sample data table:
+#### Sample data table:
 
 |user| time|
 |------|-------|
@@ -112,7 +112,7 @@ We wanted to see how how long issues remained in each label. This could help us 
 |Key article| 2716844|
 |Step 1: Relevant Paper| 92355362|
 
-  #### Results
+#### Results
 
 ### Feature 4: Number of Commits per week
 Finding the number of commits per week could help us determine which people were participating and not. Also, it could help us spot gaps in participation.
