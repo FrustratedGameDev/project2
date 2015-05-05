@@ -100,8 +100,25 @@ Sample data table:
 |person2| 0:19:16|
 
 ## Feature 3: Time per label
+We wanted to see how how long issues remained in each label. This could help us determine how the labels were used.
+
+Sample data table:
+
+|label| time in label (ms)|
+|------|-------|
+|Key article| 2716844|
+|Step 1: Relevant Paper| 92355362|
 
 ## Feature 4: Number of Commits per week
+Finding the number of commits per week could help us determine which people were participating and not. Also, it could help us spot gaps in participation.
+
+### Results
+Sample data table:
+
+Week | Commits
+--- | ---
+1 | 5
+2 | 20
 
 ## Feature 5: Uneven number of commits
 ## Feature 6: Unusual time in Label
