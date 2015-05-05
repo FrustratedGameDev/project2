@@ -23,8 +23,6 @@ def usercleaner(repo):
   	w = json.loads(v)
 
 	usercount = 1
-	milestonecount = 1
-
   	if not w: return False
   	for contributor in w:
   		user = contributor['login']
@@ -32,7 +30,31 @@ def usercleaner(repo):
   		userList[user] = usercount
   		usercount+=1
 
+  	print("User list: ")
   	print(userList)
+
+
+
+
+def milestonecleaner(repo):
+	milestonesite = "https://api.github.com/repos/"+repo+"/milestones?state=all&page=1"
+	v = urllib2.urlopen(milestonesite).read()
+  	w = json.loads(v)
+	
+	milestonecount = 1
+	if not w: return False
+  	for milestone in w:
+  		mstone = milestone['title']
+  		#print(mstone)
+  		milestoneList[mstone] = milestonecount
+  		milestonecount+=1
+
+  	print("Milestone list: ")
+  	print(milestoneList)
+
+
+
+
   		#user= contributor['login']
   		#print(user)
 
@@ -62,3 +84,4 @@ def usercleaner(repo):
 
 if __name__ == '__main__':
     usercleaner(sys.argv[1])
+    milestonecleaner(sys.argv[1])
