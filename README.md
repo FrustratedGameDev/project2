@@ -62,6 +62,19 @@ The following table demonstrates how much data was collect for each feature.
 
 The following are some example of the data that has been collected and links to the real thing:
 
+|Number|Feature|Project1|Project2|Project3|
+|------|-------|--------|--------|--------|
+|1|Commit Message Length|1|1|1|
+|2|Uneven Time Between Commits|1|1|1|
+|3|Uneven Label Usage|1|1|1|
+|4|Number of Commits per week|1|1|1|
+|5|Uneven number of commits|1|1|1|
+|6|Unusal time in Label|1|1|1|
+|7|Mean St Dev in Label|1|1|1|
+|8|Uneven Issue Handling|1|1|1|
+|9|Number of Issues per milestone|1|1|1|
+|10|Issues without Milestones|1|1|1|
+
 ## Feature Detection
 ## Feature Detection Results 
 ## Bad Smells Detector
