@@ -1,9 +1,9 @@
 # count num lines with 'action: ' and make a bucket for each 'user: {user-name}'
 
-users = {}
+issuesWithoutMilestones = []
 
-def countUsers():
-    with open('ourRepo.txt') as file:
+def countIssuesWithoutMilestones():
+    with open('../ourRepo.txt') as file:
         for line in file:
             if "action :" in line:
                 parts = line.split(',')
@@ -17,16 +17,20 @@ def countUsers():
 
 
 
-countUsers()
+countIssuesWithoutMilestones()
 
 sortedUsers = sorted(users, key=users.get)
 print("The list below identifies how much activity each user had on all  issues:\n")
 
-for user in sortedUsers:
-    count = str(users[user])
-    print(user + "\t" + count)
+
+with open('uneven-issue-handling.csv', 'w') as file:
+    file.write('user, number of issues handled\n')
+    for user in sortedUsers:
+        count = str(users[user])
+        file.write(user + ", " + count +'\n')
 
     #Right now this tool gathers ones that don't have milestones. 
         #This is identified as those with a new line behind it. 
 
-print("\nThe person to close an issue is usually the one that fixed it. The following list identifies the number of issues that a user was the last person to handle the issue:")
+print("\nThe person to close an issue is usually the one that fixed it.")
+print("The following list identifies the number of issues that a user was the last person to handle the issue:")
