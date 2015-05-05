@@ -13,6 +13,9 @@ import re,datetime
 import sys
 #import requests
 
+import fileinput, glob, string, sys, os
+from os.path import join
+
 userList = {}
 milestoneList = {}
 
@@ -51,8 +54,35 @@ def milestonecleaner(repo):
   	print(milestoneList)
 
 #This method finds all the files in the diirectory exposing personal information and changes it to the appopriate names
-#def findanddestroy(dir2check):
+#Where path is the dir to ge the files from
+# Test command:  python anonymize2.py FrustratedGameDev/Papers /Users/Denae/git/CSC510/project2/testdir
+
+def findanddestroy(path,exts=None):
 	#for each file in the directory
+    # replace a string in multiple files
+   
+
+	print("Is this still the userList? ")
+	print(userList)
+
+	files = glob.glob(path + "/*.csv")
+	if files is not []:
+		for file in files:
+			if os.path.isfile(file):
+				if exts is None or exts.count(os.path.splitext(file)[1]) is not 0:
+					for line in fileinput.input(file,inplace=1):
+						for user in userList:
+							lineno = 0
+	                        lineno = string.find(line, str(user))
+	                        if lineno >0:
+	                            line = line.replace(str(user), userList[user])
+	                        sys.stdout.write(line)
+						#for mstone in milestoneList:
+	                    #	lineno = 0
+	                    #   lineno = string.find(line, str(mstone))
+	                    #    if lineno >0:
+	                    #        line = line.replace(str(mstone), milestoneList[mstone])t
+	                    #    sys.stdout.write(line)
 
   		
 
