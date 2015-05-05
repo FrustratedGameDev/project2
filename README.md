@@ -22,7 +22,7 @@ The features are divided amongst folder and the data for the three repositories 
  ```
  def usercleaner(repo):
 	usersite = "https://api.github.com/repos/" +repo+ "/contributors?page=1"
-	  v = urllib2.urlopen(usersite).read()
+	v = urllib2.urlopen(usersite).read()
   	w = json.loads(v)
 
 	usercount = 1
@@ -35,7 +35,7 @@ The features are divided amongst folder and the data for the three repositories 
 # Collects a dict of the alias names
 def milestonecleaner(repo):
 	milestonesite = "https://api.github.com/repos/"+repo+"/milestones?state=all&page=1"
-	  v = urllib2.urlopen(milestonesite).read()
+	v = urllib2.urlopen(milestonesite).read()
   	w = json.loads(v)
 	
 	milestonecount = 1
