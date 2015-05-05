@@ -174,6 +174,10 @@ Week | Commits
 2 | 20
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/4-commits-per-week/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/4-commits-per-week/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/4-commits-per-week/results/project_3.csv)
+
 
 #### Bad Smells
 People should be contributing every week, and if not, then there might be something wrong.
@@ -190,6 +194,10 @@ person1| 112
 person2| 49
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/5-large-number-commits/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/5-large-number-commits/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/5-large-number-commits/results/project_3.csv)
+
 
 #### Bad Smells
 The distribution of commits should be fairly even, and if not, then maybe one person did a lot more work than the others. However, one person may just commit more often, so this is not certain.
@@ -249,6 +257,10 @@ person1| 58
 person2| 237
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/8-uneven-issue-handling/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/8-uneven-issue-handling/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/8-uneven-issue-handling/results/project_3.csv)
+
 
 #### Bad Smells
 The distribution should be fairly even, and if not, then maybe one person did a lot more work than the others. 
@@ -266,6 +278,10 @@ milestone1 | 10
 milestone2 | 1
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/9-issue-per-milestone/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/9-issue-per-milestone/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/9-issue-per-milestone/results/project_3.csv)
+
 
 #### Bad Smells
 Some milestones may have very little issues (or zero) and thus not used properly. Or some milestones may need to be broken up.
@@ -278,6 +294,10 @@ In addition to the previous feature, we also want to see how many issues were no
 Sample data table:
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/10-issue-no-milestone/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/10-issue-no-milestone/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/10-issue-no-milestone/results/project_3.csv)
+
 
 #### Bad Smells
 This is an indication that some issues may have been missed and not assigned.
@@ -294,6 +314,9 @@ Step 4: Read in depth| 1
 question| 1
 
 The links to the entire data set for this extractor can be found here:
+* [Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/11-issue-per-label/results/project_1.csv)
+* [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/11-issue-per-label/results/project_2.csv)
+* [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/11-issue-per-label/results/project_3.csv)
 
 #### Bad Smells
 Some labels were only used once, and that is an indication that they should have been pulled into other labels instead.
