@@ -95,6 +95,15 @@ We intentionally expected for this call to gather the entire list of milestones 
 The early warning result showed that 2 out of the 3 projects had open milestones.
 This demonstrates a couple charactersitics about that project: 
 1. The team did not finish all they intended for the project. They should have scoped the project better.
+
 2. The team did not have an intense process of closing milestones. They should have a discussed plan of attack that they stuck to.
+
 3. The team is not fully aware of the process of closing milestones and their value.
+
+Here is an example of how the data is set up in the csv files:
+
+|milestone name|open issues|closed issues|due date|
+|------|-------|--------|--------|
+|milestone#|#|#|05-01-15|
+
 
