@@ -115,7 +115,9 @@ Sample data table:
 |person2|20|
 
 The links to the entire data set for this extractor can be found here:
-
+*[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/1-commit-message-length/results/project_1.csv)
+*[Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/1-commit-message-length/results/project_2.csv)
+*[Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/1-commit-message-length/results/project_3.csv)
 
 #### Bad Smells
 Commit messages should be long and detailed (except for the first line). If messages are consistently short (less than 20 characters), then this could be an indication of poor communication.
@@ -132,6 +134,10 @@ Sample data table:
 |person2| 0:19:16|
 
 The links to the entire data set for this extractor can be found here:
+*[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/2-timeBtwnCommits/results/project_1.csv)
+*[Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/2-timeBtwnCommits/results/project_2.csv)
+*[Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/2-timeBtwnCommits/results/project_3.csv)
+
 
 #### Bad Smells
 If someone goes a long time (days/weeks) in between commits then this could be an indication of an unbalanced team.
@@ -148,6 +154,10 @@ Sample data table:
 |Step 1: Relevant Paper| 92355362|
 
 The links to the entire data set for this extractor can be found here:
+*[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/3-label-durations/results/project_1.csv)
+*[Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/3-label-durations/results/project_2.csv)
+*[Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/3-label-durations/results/project_3.csv)
+
 
 #### Bad Smells
 If labels have very short times then we know that they were barely used. This could be an instance of forgetting to adjust the label on an issue.
@@ -195,6 +205,12 @@ label| duration (ms)
 Step 1: Relevant Paper| 92355362
 
 The links to the entire data set for this extractor can be found here:
+*[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/6-long-labels/results/project_1.csv)
+*[Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/6-long-labels/results/project_2.csv)
+*[Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/6-long-labels/results/project_3.csv)
+
+
+
 
 #### Bad Smells
 Really long labels might indicate that they should've been broken up into multiple labels.
@@ -212,6 +228,9 @@ Mean time per label| 31772392
 Standard deviation| 45054088.4484
 
 The links to the entire data set for this extractor can be found here:
+*[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/features/7-label-mean-stddev/results/project_1.csv)
+*[Project 2](https://github.com/FrustratedGameDev/project2/blob/master/features/7-label-mean-stddev/results/project_2.csv)
+*[Project 3](https://github.com/FrustratedGameDev/project2/blob/master/features/7-label-mean-stddev/results/project_3.csv)
 
 
 #### Bad Smells
