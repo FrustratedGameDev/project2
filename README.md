@@ -17,6 +17,35 @@ The features are divided amongst folder and the data for the three repositories 
  To anonymize the data we created a python script that collects the repository specific information(contributors, milestones, etc.) and creates a dictionary linking to those values.
  This dictionary is created for each repository. 
  We created a shell script that then for that specific organization it goes into the result files and pulls all the identifying information out and replaces it with aliases.
+ The full code for this is can be found in [anonymized.py](https://github.com/FrustratedGameDev/project2/blob/master/anonymize.py).
+ 
+ ```
+ def usercleaner(repo):
+	usersite = "https://api.github.com/repos/" +repo+ "/contributors?page=1"
+	  v = urllib2.urlopen(usersite).read()
+  	w = json.loads(v)
+
+	usercount = 1
+  	if not w: return False
+  	for contributor in w:
+  		user = contributor['login']
+  		userList[user] = "user_"+str(usercount)
+  		usercount+=1
+
+# Collects a dict of the alias names
+def milestonecleaner(repo):
+	milestonesite = "https://api.github.com/repos/"+repo+"/milestones?state=all&page=1"
+	  v = urllib2.urlopen(milestonesite).read()
+  	w = json.loads(v)
+	
+	milestonecount = 1
+	if not w: return False
+  	for milestone in w:
+  		mstone = milestone['title']
+  		milestoneList[mstone] = "milestone_"+str(milestonecount)
+  		milestonecount+=1
+ ```
+ 
 
 ## 3. Tables
 ## 4. Data
