@@ -1,4 +1,5 @@
 # Project 2 Report
+##BadSmell Detector
 Anthony Elliott and Denae Ford
 
 May 4, 2014
