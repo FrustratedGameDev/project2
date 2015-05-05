@@ -102,63 +102,72 @@ def launchDump():
     print(page)
     page += 1
     if not doNext : break
+  return issues
 
+def processTimeInEachLabel(issues):
   timePerLabel = {}
 
-  with open('label-durations.csv', 'w') as file:
-    for issue, events in issues.iteritems():
-      #print("ISSUE " + str(issue))
-      # TODO sort events based on time
-      sortedEvents = sorted(events, key=lambda k: k['when']) 
+  for issue, events in issues.iteritems():
+    #print("ISSUE " + str(issue))
+    # TODO sort events based on time
+    sortedEvents = sorted(events, key=lambda k: k['when']) 
 
-      prevTime = None
+    prevTime = None
 
-      for event in sortedEvents: 
-        #print(event.show())
-        start = int(event.when)
-        #print("when: " + str(start))
-        if prevTime == None:
-          prevTime = start
+    for event in sortedEvents: 
+      #print(event.show())
+      start = int(event.when)
+      #print("when: " + str(start))
+      if prevTime == None:
+        prevTime = start
+      else:
+        duration = start - prevTime
+
+        # add to dict
+        label = event.what
+        if label in timePerLabel:
+          timePerLabel[label] += duration
         else:
-          duration = start - prevTime
+          timePerLabel[label] = duration
 
-          # add to dict
-          label = event.what
-          if label in timePerLabel:
-            timePerLabel[label] += duration
-          else:
-            timePerLabel[label] = duration
+  # remove really small outliers (under 1 second)
+  for label, duration in timePerLabel.items():
+    if duration < 1000:
+      del timePerLabel[label]
 
-    # remove really small outliers (under 1 second)
-    for label, duration in timePerLabel.items():
-      if duration < 1000:
-        del timePerLabel[label]
-
-    sumNormal = 0
-    sumOfSquares = 0;
+  # Write time spent in each label
+  with open('label-durations.csv', 'w') as file:
     file.write('label, time in label (ms)\n')
     for label in timePerLabel:
       file.write(label + ", " + str(timePerLabel[label]) + '\n')
-      sumNormal += timePerLabel[label]
-      sumOfSquares += timePerLabel[label]**2
 
-    mean = sumNormal / len(timePerLabel)
-    file.write('===\n')
+  return timePerLabel
+
+def meanAndStdDevForLabels(timePerLabel):
+  # calculate mean and standard deviation
+  sumNormal = 0
+  sumOfSquares = 0;
+  for label in timePerLabel:
+    sumNormal += timePerLabel[label]
+    sumOfSquares += timePerLabel[label]**2
+
+  mean = sumNormal / len(timePerLabel)
+  num = len(timePerLabel)
+  top = math.sqrt(num * sumOfSquares - sumNormal)
+  standardDeviation = top / len(timePerLabel)
+
+  # Write mean and std dev
+  with open('label-mean-stddev.csv', 'w') as file:  
     file.write('Mean time per label: ' + str(mean) + '\n')
-
-    num = len(timePerLabel)
-    top = math.sqrt(num * sumOfSquares - sumNormal)
-    standardDeviation = top / len(timePerLabel)
-
     file.write('Standard deviation: ' + str(standardDeviation) + '\n')
 
-    file.write('===\n')
-    file.write('Unusually long labels\n')
+  # Find long labels
+  with open('long-labels.csv', 'w') as file:
     file.write('label, duration (ms)\n')
     for label in timePerLabel:
       if timePerLabel[label] > mean + standardDeviation:
         file.write(label + ', ' + str(timePerLabel[label]) + '\n')
 
-
-    
-launchDump()
+issues = launchDump()
+timePerLabel = processTimeInEachLabel(issues)
+meanAndStdDevForLabels(timePerLabel)

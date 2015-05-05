@@ -67,7 +67,7 @@ The following table demonstrates how much data was collect for each feature.
 |5|Uneven number of commits|3|1|1|
 |6|Unusual time in Label|1|1|1|
 |7|Mean St Dev in Label|2|1|1|
-|8|Uneven Issue Handling|X|1|1|
+|8|Issues per user|3|1|1|
 |9|Number of Issues per milestone|X|1|1|
 |10|Issues without Milestones|X|1|1|
 
