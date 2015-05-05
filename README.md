@@ -20,11 +20,11 @@ The features are divided amongst folder and the data for the three repositories 
 
 ## 3. Tables
 ## 4. Data
-### 4.1 Data Samples
+### 4.1. Data Samples
 ## 5. Feature Detection
-### 5.1 Feature Detection Results 
+### 5.1. Feature Detection Results 
 ## 6. Bad Smells Detector
-### 6.1 Bad Smells Results
+### 6.1. Bad Smells Results
 
 ## 7. Early Warning
  An early warning of a bad smell is being able to detect whether or not people still have milestones open at this stage of projects. 
@@ -34,4 +34,4 @@ To search for this we were able to call for all the milestones from a particular
 ```https://api.github.com/repos/" + repo + "/milestones?page=1```
 
 We intentionally expected for this call to gather the entire list of milestones for the original project but this only gathered those milestones that are still open.
-## 7.1 Early Warning Results
+## 7.1. Early Warning Results
