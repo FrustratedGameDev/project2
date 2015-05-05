@@ -75,11 +75,40 @@ The following table demonstrates how much data was collect for each feature.
 
 The following are some example of the data that has been collected and links to the real thing:
 
+## Feature 1: Commit Message Length
+We wanted to extract the length of each commit message.
 
-## Feature Detection
-## Feature Detection Results 
-## Bad Smells Detector
-## Bad Smells Results
+### Results
+
+Sample data table:
+
+|username|length of message|
+|------|-------|
+|person1|14|
+|person1|16|
+|person2|20|
+
+## Feature 2: Uneven Time Between Commits
+We wanted to determine how long each contributor went in between each commit. This could be used to help analyze participation.
+
+### Results
+Sample data table:
+
+|user| time|
+|------|-------|
+|person1| 3 days; 22:47:26 |
+|person2| 0:19:16|
+
+## Feature 3: Time per label
+
+## Feature 4: Number of Commits per week
+
+## Feature 5: Uneven number of commits
+## Feature 6: Unusual time in Label
+## Feature 7: Mean St Dev in Label
+## Feature 8: Issues per user
+## Feature 9: Number of Issues per milestone
+## Feature 10: Issues without Milestones
 
 ## Early Warning
  An early warning of a bad smell is being able to detect whether or not people still have milestones open at this stage of projects. 
