@@ -105,7 +105,7 @@ Here is an example of how the data is set up in the csv files:
 
 |milestone name|open issues|closed issues|due date|
 |------|-------|--------|--------|
-|milestone#|#|#|05-01-15|
+|milestone_2|5|5|015-04-05T04:00:00Z|
 
 ###Project 1
 ```
