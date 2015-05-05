@@ -5,9 +5,13 @@ May 4, 2014
 
 ##  1. Collection
 
-Data collection was done 
+Data was collected using Python scripts.
+We started with the intial file given for the study gitable.py and began to build from there.
+The features are divided amongst folder and the data for the three groups are listed in the results folder under their aliases.
 
 ## 2. Anonymized
+
+
 ## 3. Tables
 ## 4. Data
 ### 4.1 Data Samples
