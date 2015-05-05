@@ -61,7 +61,7 @@ The following table demonstrates how much data was collect for each feature.
 |Number|Feature|Project1|Project2|Project3|
 |------|-------|--------|--------|--------|
 |1|Commit Message Length|162|1|1|
-|2|Uneven Time Between Commits|X|1|1|
+|2|Uneven Time Between Commits|160|1|1|
 |3|Time per label|19|1|1|
 |4|Number of Commits per week|11|1|1|
 |5|Uneven number of commits|3|1|1|
