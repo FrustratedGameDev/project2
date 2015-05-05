@@ -121,11 +121,66 @@ Week | Commits
 2 | 20
 
 ## Feature 5: Uneven number of commits
+Finding out how many commits each participant created could be a big factor in overall participation. There are other factors behind participation than just commit count, but it could play a factor.
+
+### Results
+Sample data table:
+
+user| commits
+--- | ---
+person1| 112
+person2| 49
+
 ## Feature 6: Unusual time in Label
+Some issues spent an unusually time in some labels.  We wanted to find out how much time an issue spent in each label.
+
+### Results
+Sample data table:
+
+label| duration (ms)
+--- | ---
+Step 1: Relevant Paper| 92355362
+
 ## Feature 7: Mean St Dev in Label
+We also wanted some way to represent the middle of how much time was spent in each label. Additionally, we also wanted to find out how spread out the times were.  The mean and standard deviation fit in well here.
+
+### Results
+Sample data table:
+
+Metric | time (ms)
+--- | ---
+Mean time per label| 31772392
+Standard deviation| 45054088.4484
+
+
 ## Feature 8: Issues per user
+Commits are one way of measuring participation, measuring how involved a user was in the issues is another way of measuring participation.
+
+### Results
+Sample data table:
+
+user| number of issues handled
+--- | ---
+person1| 58
+person2| 237
+
+
 ## Feature 9: Number of Issues per milestone
+We wanted to see how many issues were assigned to each milestone. Were they fairly evenly distributed or was there a lot of spread?
+
+### Results
+Sample data table:
+
+milestone | number of issues
+--- | ---
+milestone1 | 10
+milestone2 | 1
+
 ## Feature 10: Issues without Milestones
+In addition to the previous feature, we also want to see how many issues were not assigned to a milestone.
+
+### Results
+Not done yet.
 
 ## Early Warning
  An early warning of a bad smell is being able to detect whether or not people still have milestones open at this stage of projects. 
