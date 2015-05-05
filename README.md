@@ -58,10 +58,6 @@ The tables are found in the results folder for each feature and bad smell.
 
 The following table demonstrates how much data was collect for each feature.
 
-## Data Samples
-
-The following are some example of the data that has been collected and links to the real thing:
-
 |Number|Feature|Project1|Project2|Project3|
 |------|-------|--------|--------|--------|
 |1|Commit Message Length|1|1|1|
@@ -74,6 +70,11 @@ The following are some example of the data that has been collected and links to 
 |8|Uneven Issue Handling|1|1|1|
 |9|Number of Issues per milestone|1|1|1|
 |10|Issues without Milestones|1|1|1|
+
+## Data Samples
+
+The following are some example of the data that has been collected and links to the real thing:
+
 
 ## Feature Detection
 ## Feature Detection Results 
