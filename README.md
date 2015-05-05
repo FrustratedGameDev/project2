@@ -88,7 +88,8 @@ To search for this we were able to call for all the milestones from a particular
 
 ```https://api.github.com/repos/" + repo + "/milestones?page=1```
 
-We intentionally expected for this call to gather the entire list of milestones for the original project but this only gathered those milestones that are still open.
+We intentionally expected for this call to gather the entire list of milestones for the original project but this only gathered those milestones that are still open. 
+The code for this tool can be found in [getOpenedMilestones.py](https://github.com/FrustratedGameDev/project2/blob/master/early_warning/getopenMilestone.py).
 
 ## Early Warning Results
 
@@ -108,13 +109,26 @@ Here is an example of how the data is set up in the csv files:
 |milestone_2|5|5|015-04-05T04:00:00Z|
 
 The tables for these findings can be found in the [Early Warning Folder](https://github.com/FrustratedGameDev/project2/tree/master/early_warning)
+
 ###Project 1
 
 ```
 No milestones were detected.
 ```
+[Project 1](https://github.com/FrustratedGameDev/project2/blob/master/early_warning/results/project_1.csv) like many other groups in the class list have not milestones open. 
+This demonstrates that the members of this team understood the task at hand and knew how to take advantage of the milestones features.
 
 ###Project 2
+For [Project 2](https://github.com/FrustratedGameDev/project2/blob/master/early_warning/results/project_2.csv) there were 2 milestones. 
+Each of these milestones had no open issues.
+One of the milestone had 8 closed issues however which indicated that there was some understanding of the milestones feature and how it correlates with issues. 
+This supports the first characteristic listed that the members of the project did not have a good understanding of the scope. 
+These milestones listed are also extremely past their March 26 and and 31st dates.
 
 ###Project 3
+The results for [Project 3](https://github.com/FrustratedGameDev/project2/blob/master/early_warning/results/project_3.csv) show that one of the milestones that was left open did not have any opened issues, closed issues, nor a due date. 
+This demonstrates the the team members did not need this Milestone or did not reach the part in the project where the milestone was important.
+The second opened milestone for this project had 23 closed issues and no open issues.  
+This demonstrates that they were actively using the system but did not recall to close the milestone.  
+The due date for the second milestone is also over due by a month as the due date is April 5.
 
