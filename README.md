@@ -70,6 +70,7 @@ The following table demonstrates how much data was collect for each feature.
 |8|Issues per user|3|1|1|
 |9|Number of Issues per milestone|X|1|1|
 |10|Issues without Milestones|X|1|1|
+|11|Issues per Label|22|1|1|
 
 ##Features
 
