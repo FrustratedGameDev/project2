@@ -85,15 +85,15 @@ The following table demonstrates how much data was collect for each feature. For
 
 |Number|Feature|Project1|Project2|Project3|
 |------|-------|--------|--------|--------|
-|1|Commit Message Length|162|1|1|
-|2|Uneven Time Between Commits|160|1|1|
-|3|Time per label|19|1|1|
-|4|Number of Commits per week|11|1|1|
-|5|Uneven number of commits|3|1|1|
-|6|Time in each label|1|1|1|
-|7|Mean St Dev in Label|2|1|1|
-|8|Issues per user|3|1|1|
-|9|Number of Issues per milestone|X|1|1|
+|1|Commit Message Length|162|83|183|
+|2|Uneven Time Between Commits|160|160|160|
+|3|Time per label|15|7|6|
+|4|Number of Commits per week|11|5|8|
+|5|Uneven number of commits|3|0|9|
+|6|Time in each label|2|1|1|
+|7|Mean St Dev in Label|2|2|2|
+|8|Issues per user|3|3|3|
+|9|Number of Issues per milestone|3|3|3|
 |10|Issues without Milestones|5|4|7|
 |11|Issues per Label|22|22|22|
 
