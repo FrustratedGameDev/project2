@@ -14,20 +14,27 @@ import sys
 #import requests
 
 userList = {}
-userLista = {}
-
-
+milestoneList = {}
 
 def usercleaner(repo):
-	site = "https://api.github.com/repos/" +repo+ "/contributors?page=1"
+	usersite = "https://api.github.com/repos/" +repo+ "/contributors?page=1"
 	#resp = urllib2.urlopen(site)
-	v = urllib2.urlopen(site).read()
+	v = urllib2.urlopen(usersite).read()
   	w = json.loads(v)
+
+	usercount = 1
+	milestonecount = 1
 
   	if not w: return False
   	for contributor in w:
   		user = contributor['login']
-  		print(user)
+  		#print(user)
+  		userList[user] = usercount
+  		usercount+=1
+
+  	print(userList)
+  		#user= contributor['login']
+  		#print(user)
 
 	#r = requests.get(site, stream=True)
 
@@ -49,8 +56,8 @@ def usercleaner(repo):
 
 
 
-	for username in userList:
-		print(username)
+	#for username in userList:
+	#	print(username)
 
 
 if __name__ == '__main__':
