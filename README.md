@@ -56,7 +56,32 @@ The tables are found in the results folder for each feature and bad smell.
 
 ## Data
 
-The following table demonstrates how much data was collect for each feature.
+The following features were extracted from github:
+* Issues
+ + Issue Name
+ + Creation Time (time of first event)
+ + Action of Issue labels
+ + User who completed action
+* Milestones
+ + Description
+ + Creation Time
+ + Due Date and Time
+ + Closed Time
+ + Number of Opened Issues
+ + Number of Closed Issues
+ + Milestones that are still open
+* Comments
+ + User
+ + Issue with comments
+ + Timestamp
+ + Text of the comment
+* Commits
+ + User
+ + Timestamp
+ + Message
+
+
+The following table demonstrates how much data was collect for each feature. For each project it shows the number of rows of data that was collected.
 
 |Number|Feature|Project1|Project2|Project3|
 |------|-------|--------|--------|--------|
@@ -71,6 +96,7 @@ The following table demonstrates how much data was collect for each feature.
 |9|Number of Issues per milestone|X|1|1|
 |10|Issues without Milestones|X|1|1|
 |11|Issues per Label|22|1|1|
+
 
 ##Features
 
