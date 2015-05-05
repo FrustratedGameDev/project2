@@ -12,7 +12,7 @@ def addToDict(user, date):
         userToCommits[user].append(date)
 
 def getCommitsForEachUser():
-    with open('commit-data.txt') as file:
+    with open('../commit-data.txt') as file:
         for line in file:
             if isLineValid(line):
                 # get user
@@ -21,15 +21,18 @@ def getCommitsForEachUser():
                 addToDict(user, date)
 
 def displayTimeBtwnCommits():
-    for user in userToCommits:
-        print("===\n" + user)
-        dates = userToCommits[user]
-        prev = None
-        for date in dates:
-            if prev != None:
-                print(prev - date)
+    with open('timeBtwnCommits.csv', 'w') as file:
+        file.write('user, time\n')
+        for user in userToCommits:
+            dates = userToCommits[user]
+            prev = None
+            for date in dates:
+                if prev != None:
+                    difference = prev - date
+                    diffStr = str(difference).replace(',', ';')
+                    file.write(user + ', ' + diffStr + '\n')
 
-            prev = date
+                prev = date
 
 getCommitsForEachUser()
 displayTimeBtwnCommits()
