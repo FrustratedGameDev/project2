@@ -65,7 +65,7 @@ The following table demonstrates how much data was collect for each feature.
 |3|Time per label|19|1|1|
 |4|Number of Commits per week|11|1|1|
 |5|Uneven number of commits|3|1|1|
-|6|Unusual time in Label|1|1|1|
+|6|Time in each label|1|1|1|
 |7|Mean St Dev in Label|2|1|1|
 |8|Issues per user|3|1|1|
 |9|Number of Issues per milestone|X|1|1|
