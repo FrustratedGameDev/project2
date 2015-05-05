@@ -55,7 +55,13 @@ Statistical measures like the mean and standard deviation of the data set were e
 The tables are found in the results folder for each feature and bad smell. 
 
 ## Data
+
+The following table demonstrates how much data was collect for each feature.
+
 ## Data Samples
+
+The following are some example of the data that has been collected and links to the real thing:
+
 ## Feature Detection
 ## Feature Detection Results 
 ## Bad Smells Detector
