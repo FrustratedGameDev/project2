@@ -70,6 +70,7 @@ The following table demonstrates how much data was collect for each feature.
 |8|Issues per user|3|1|1|
 |9|Number of Issues per milestone|X|1|1|
 |10|Issues without Milestones|X|1|1|
+|11|Issues per Label|22|1|1|
 
 ##Features
 
@@ -89,6 +90,9 @@ We wanted to extract the length of each commit message.
 
 #### Results
 
+#### Bad Smells
+Commit messages should be long and detailed (except for the first line). If messages are consistently short (less than 20 characters), then this could be an indication of poor communication.
+
 ### Feature 2: Uneven Time Between Commits
 We wanted to determine how long each contributor went in between each commit. This could be used to help analyze participation.
 
@@ -101,6 +105,8 @@ We wanted to determine how long each contributor went in between each commit. Th
 
 #### Results
 
+#### Bad Smells
+If someone goes a long time (days/weeks) in between commits then this could be an indication of an unbalanced team.
 
 ### Feature 3: Time per label
 We wanted to see how how long issues remained in each label. This could help us determine how the labels were used.
@@ -114,6 +120,9 @@ We wanted to see how how long issues remained in each label. This could help us 
 
 #### Results
 
+#### Bad Smells
+If labels have very short times then we know that they were barely used. This could be an instance of forgetting to adjust the label on an issue.
+
 ### Feature 4: Number of Commits per week
 Finding the number of commits per week could help us determine which people were participating and not. Also, it could help us spot gaps in participation.
 
@@ -125,6 +134,9 @@ Week | Commits
 2 | 20
 
 #### Results
+
+#### Bad Smells
+People should be contributing every week, and if not, then there might be something wrong.
 
 ### Feature 5: Uneven number of commits
 Finding out how many commits each participant created could be a big factor in overall participation. There are other factors behind participation than just commit count, but it could play a factor.
@@ -138,6 +150,9 @@ person2| 49
 
 #### Results
 
+#### Bad Smells
+The distribution of commits should be fairly even, and if not, then maybe one person did a lot more work than the others. However, one person may just commit more often, so this is not certain.
+
 ### Feature 6: Unusual time in Label
 Some issues spent an unusually time in some labels.  We wanted to find out how much time an issue spent in each label.
 
@@ -149,6 +164,9 @@ label| duration (ms)
 Step 1: Relevant Paper| 92355362
 
 #### Results
+
+#### Bad Smells
+Really long labels might indicate that they should've been broken up into multiple labels.
 
 ### Feature 7: Mean St Dev in Label
 We also wanted some way to represent the middle of how much time was spent in each label. Additionally, we also wanted to find out how spread out the times were.  The mean and standard deviation fit in well here.
@@ -162,6 +180,8 @@ Standard deviation| 45054088.4484
 
 #### Results
 
+#### Bad Smells
+If the standard deviation is large in comparison to the mean, then we know that perhaps the labels should have been organized better.
 
 ### Feature 8: Issues per user
 Commits are one way of measuring participation, measuring how involved a user was in the issues is another way of measuring participation.
@@ -176,6 +196,9 @@ person2| 237
 
 #### Results
 
+#### Bad Smells
+The distribution should be fairly even, and if not, then maybe one person did a lot more work than the others. 
+
 ## Feature 9: Number of Issues per milestone
 We wanted to see how many issues were assigned to each milestone. Were they fairly evenly distributed or was there a lot of spread?
 
@@ -188,11 +211,31 @@ milestone2 | 1
 
 #### Results
 
+#### Bad Smells
+Some milestones may have very little issues (or zero) and thus not used properly. Or some milestones may need to be broken up.
+
 ### Feature 10: Issues without Milestones
 In addition to the previous feature, we also want to see how many issues were not assigned to a milestone.
 
 #### Results
 Not done yet.
+
+#### Bad Smells
+This is an indication that some issues may have been missed and not assigned.
+
+### Feature 11: Issues per Label
+Counts the number of issues used for each label. This gives us interesting data on how the team used the labels.
+
+#### Results
+Sample data table:
+
+label| number of issues
+---|---
+Step 4: Read in depth| 1
+question| 1
+
+#### Bad Smells
+Some labels were only used once, and that is an indication that they should have been pulled into other labels instead.
 
 ## Early Warning
  An early warning of a bad smell is being able to detect whether or not people still have milestones open at this stage of projects. 
